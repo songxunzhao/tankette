@@ -1,0 +1,47 @@
+{
+  "name": "tankette",
+  "version": "0.1.0",
+  "description": "Tankette Game Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "test": "mocha tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songxunzhao/gz_tankette.git"
+  },
+  "keywords": [
+    "Game",
+    "Server",
+    "Tankette"
+  ],
+  "author": "zhaosongxun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songxunzhao/gz_tankette/issues"
+  },
+  "homepage": "https://github.com/songxunzhao/gz_tankette#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.1.4",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^6.0.3",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1",
+    "sinon": "^8.0.1",
+    "sinon-chai": "^3.4.0"
+  }
+}
